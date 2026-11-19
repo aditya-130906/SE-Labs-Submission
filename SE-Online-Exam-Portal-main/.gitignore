@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build artifacts
+dist/
+build/
+coverage/
+scratch/
+
+# Local Environment & Database
+.env
+.env.local
+*.log
+*.sqlite
+database.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local TLS development certificates (npm run cert:dev)
+certs/
+
+# Load-test working data (generated tokens and raw results)
+backend/perf/data/
+backend/perf/results/raw/
